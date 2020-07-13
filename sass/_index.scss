@@ -252,6 +252,7 @@ main#content{
 			padding-bottom: 0;
 		}
 		&.ready-animate{
+			overflow: hidden;
 			h2,.sub_title{
 				transform: $transformY50;
 				opacity: 0;
@@ -351,6 +352,7 @@ article#NEWS{
     background-repeat: no-repeat;
     // background-size: contain;
 	background-position: center bottom;
+	overflow: hidden;
 	@include media('phone'){
 		// padding-top: 0!important;
 	}
